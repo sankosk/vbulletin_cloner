@@ -131,30 +131,4 @@ class Vbulletin:
         return self.make_request({}, 'login_logout', 'GET')
 
 
-client_options = {
-    'apikey': 'LH0RwXtv',
-    'forumurl': 'http://127.0.0.1/foro',
-    'clientname': 'someclient',
-    'clientversion': '1',
-    'platformname': '1',
-    'platformversion': '1',
-    'uniqueid': 'someuniqueid'
-}
 
-client_options1 = {
-    'apikey': 'XMX7BauV',
-    'forumurl': 'http://probandoclonador.x10host.com/upload',
-    'clientname': 'someclient',
-    'clientversion': '1',
-    'platformname': '1',
-    'platformversion': '1',
-    'uniqueid': 'someuniqueid'
-}
-
-v = Vbulletin(client_options)
-#v.login('admin', 'admin2')
-# forum id, subject, message
-#print v.post_new_thread('2', 'ABCDEEEEE EFG', 'This is a message creado de forma automatizada.')
-#v.post_new_answer('6','A ver si de una puta vez rula anda')
-#v.register_new_user("kulodevaca", "kakapedoculopis", "wowhyrulian@hotmail.com")
-#v.logout()
