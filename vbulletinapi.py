@@ -4,7 +4,8 @@ import hashlib
 import urllib
 
 """
-Author: Esteban Montes
+Extended by : Esteban Montes
+Original wrapper code: https://github.com/Arsenalist/Python-Client-for-vBulletin-Mobile-API
 """
 
 class Vbulletin:
